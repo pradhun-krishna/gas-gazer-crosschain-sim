@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command, mode }) => ({
-  base: command === "serve" ? "/" : "/gas-gazer/",
+  base: command === "serve" ? "/" : "/gas-gazer-crosschain-sim/",
   server: {
     host: "::",
     port: 8080,

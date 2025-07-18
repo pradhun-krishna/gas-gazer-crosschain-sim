@@ -13,7 +13,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/gas-gazer">
+      <BrowserRouter basename="/gas-gazer-crosschain-sim">
         <Routes>
           <Route path="/" element={<Index />} />
           {}
